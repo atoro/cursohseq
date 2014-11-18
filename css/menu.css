@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+}
+.nav {
+    background-color: #181818;
+    height:60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    z-index: 2
+} 
+.nav #menu li {
+    display: block;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav #menu li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.nav #menu ul {
+    font-size: 14px;
+    list-style: none;
+}   
+.nav, 
+.nav nav {
+    display: block;
+}
+.nav #menu {
+    position: relative;
+}
+.nav #menu #nav-mobile{
+    background: url(../imagenes/nav.png) no-repeat center center;
+    display: none;
+    float: right;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 60px;
+}   
+.nav #menu #nav-mobile.nav-active{
+    opacity:0.7;
+}
+
+/* MENU */
+@media only screen and (max-width: 767px) {
+        
+    
+    .nav #menu {
+        float: none;
+        padding-top: 115px;
+    }
+    .nav #menu li {
+        background: #222;
+        border-bottom: 1px solid #181818;
+        color: #00ffb4;
+        float: none;
+        height: 40px;
+        line-height: 40px;
+    } 
+    .nav #menu li a {
+        color: white;
+        line-height: 30px;
+    }
+    .nav #menu li a:hover {
+        color: #00ffb4;
+        line-height: 30px;
+    }
+    .nav #menu li:last-child { 
+        border-bottom: 0;
+    }
+    .nav #menu #nav-mobile { 
+        display: block;
+    }
+    .nav #menu ul {
+        box-shadow: 0 1px 2px rgba(0,0,0,.5);
+        max-height: 0;
+        overflow: hidden;
+    }            
+    .nav #menu ul.open-menu{
+        margin-top: -55px;
+        max-height: 400px;
+        -webkit-transition: max-height .5s;
+        -moz-transition: max-height .5s;
+        -ms-transition: max-height .5s;
+        -o-transition: max-height .5s;
+        transition: max-height .5s;
+        position: relative;
+        z-index: 200;
+    }
+    
+}
+/* fin menu */

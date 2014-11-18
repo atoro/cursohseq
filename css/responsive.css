@@ -1,0 +1,545 @@
+@media only screen and (min-width: 768px) { 
+	
+  footer .contenido_footer .info_footer .info{
+  display: none;
+  }
+	header .logo{
+		margin: 0;
+		display: inline-block;
+		float: left;
+	}
+	header .social {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		float: right;
+		margin-top: 25px;
+	}
+	header .social p,
+	header .social .facebook,
+	header .social .facebook:hover,
+	header .social .google,
+	header .social .google:hover,
+	header .social .linkedin,
+	header .social .linkedin:hover,
+	header .social .youtube,
+	header .social .youtube:hover {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.contenedor{
+		margin: auto;
+		width: 90%;
+	}
+	.contenedor .contenedor_info{
+		display: inline-block;
+		margin: auto;
+		width: 65%;
+		vertical-align: top;
+	}
+	.contenedor .contenedor_info .inicio1{
+		border-bottom: 1px solid #ccc;
+		margin: auto;
+		width: 100%;
+	}
+	.contenedor .contenedor_info .inicio1 h3{
+		border-bottom: 2px solid #00ffb4;
+		color: #666;
+		font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 8px 0;
+		margin: auto;
+		text-align: justify;
+		width: 100%;
+	}
+	.contenedor .contenedor_info .inicio1 p{
+		color: #666;
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-right: 3%;
+		text-align: justify;
+		padding: 0 0 20px 0;
+		width: 66%;
+		vertical-align: top;
+	}
+	.contenedor .contenedor_info .inicio1 figure{
+		display: inline-block;
+		margin-top: 15px;
+		vertical-align: top;
+		width: 30%;
+	}
+	.contenedor .contenedor_info .inicio1 figure img{
+		border: 1px solid #ccc;
+		width: 100%;
+	}
+  .contenedor .contenedor_info .link_interes{
+    display: none;
+  }
+	.contenedor .contenedor_info2{
+		display: inline-block;
+		margin: 0 4% 0 0;
+		width: 30%;
+		vertical-align: top;
+	}
+	.nav {
+		margin-top: 90px;
+    	height:60px;
+    	left: 0;
+    	right: 0;
+    	width: 90%;
+    	z-index: 2;
+    	position: static;
+	}
+	.nav .centro_header {
+	    margin: auto;
+	    width: 95%;
+	}
+	.nav #logo {
+	    background: url(../imagenes/logo.png) no-repeat 0 0;
+	    display: block;
+	    float: left;
+	    height: 62px;
+	    margin: 15px 0 0 0;
+	    text-indent: -9999px;
+	    width: 220px;
+	}
+	.nav #menu ul li{
+	    margin: -20px 0 0 0;
+	}
+	.nav #menu ul li a {
+	    color: #fff;
+	    font-weight: 300;
+	    -webkit-transition: all 0.2s linear;
+	    -moz-transition: all 0.2s linear;
+	    -o-transition: all 0.2s linear;
+	    transition: all 0.2s linear;
+	    margin: 0 5px;
+	}
+	.nav #menu ul li a:hover {
+	    color: #00ffb4;
+	}
+  .nav #menu ul li .activo {
+      color: #00ffb4;
+  }
+  
+  /* carrusel */
+  .clearout,
+  #flexiselDemo3,
+  .nbs-flexisel-container,
+  .nbs-flexisel-ul,
+  .nbs-flexisel-inner,
+  .nbs-flexisel-item,
+  .nbs-flexisel-item img,
+  .nbs-flexisel-nav-left,
+  .nbs-flexisel-nav-right,
+  .nbs-flexisel-nav-left,
+  .nbs-flexisel-nav-right{
+    display: none;
+  }
+/* carrusel */
+	/*  css slide */
+    #w {
+      	display: block;
+      	height: 250px;
+      	max-width: 90%;
+      	min-width: 280px;
+      	margin: 0 auto;
+    }
+    #w header {
+      	display: block;
+    }
+    .slider {
+      	position: relative;
+      	height: 250px;
+      	width: 100%;
+      	overflow: hidden;
+      	top: -36px;
+    }
+    .slides {
+    	height: 300px;
+      	overflow: hidden;
+      	-webkit-backface-visibility: hidden;
+      	-webkit-transform-style: preserve-3d;
+       	-webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       	-moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       	-ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       	-o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       	transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    } 
+    .slide {
+      	height: 100%;
+      	float: left;
+      	clear: none;
+    }
+    .slide figure {
+      	display: block;
+      	position: relative;
+      	text-align: center;
+    }
+    .slide figure figcaption {
+    	position: absolute;
+    	left: 69%;
+    	top: 15%;
+    	width: 29%;
+    }
+    .slide figure figcaption h1 {
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 10px;
+      text-align: center;
+      text-shadow: 1px 1px 2px #333;
+    }
+    .slide figure figcaption h2 {
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 15px;
+      text-align: center;
+      text-shadow: 1px 1px 2px #333;
+    }
+    .slide figure figcaption p {
+      	display: none;
+    }
+    .slide figure figcaption a {
+    	display: none;
+    }
+    .slide figure img {
+      width: 100%;
+    }
+    .slider-nav {
+      display: none;
+    }
+    /*  css slide */
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  footer .contenido_footer{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+  footer .contenido_footer .info_footer .info{
+    display: inline-block;
+    width: 160px;
+    vertical-align: top;
+  }
+  footer .contenido_footer .info_footer .info h5{
+    color: #00ffb4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  footer .contenido_footer .info_footer .info p{
+    color: #ccc;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin: auto;
+  }
+
+	header {
+		width: 1100px;
+	}
+	.contenedor{
+		margin: auto;
+		width: 1100px;
+	}
+	.contenedor .contenedor_info{
+		display: inline-block;
+		margin: auto;
+		width: 710px;
+		vertical-align: top;
+	}
+	.contenedor .contenedor_info .inicio1{
+		border-bottom: 1px solid #ccc;
+		margin: auto;
+		width: 100%;
+	}
+	.contenedor .contenedor_info .inicio1 h3{
+		border-bottom: 2px solid #00ffb4;
+		color: #666;
+		font-family: 'Open Sans', sans-serif;
+      	font-size: 21px;
+      	font-weight: 300;
+      	padding: 8px 0;
+		margin: auto;
+		text-align: justify;
+		width: 100%;
+	}
+  .contenedor .contenedor_info .inicio1 .imgcliente { 
+    display: inline-block;
+    width: 30%;
+    margin: 10px 10px 10px 0;
+    border: solid 1px #ccc;
+  }
+	.contenedor .contenedor_info .inicio1 p{
+		color: #666;
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+      	font-size: 14px;
+      	font-weight: 300;
+      	line-height: 21px;
+      	margin-right: 4%;
+		text-align: justify;
+		padding: 0 0 20px 0;
+		width: 65%;
+		vertical-align: top;
+	}
+	.contenedor .contenedor_info .inicio1 figure{
+		display: inline-block;
+		margin-top: 15px;
+		vertical-align: top;
+		width: 30%;
+	}
+	.contenedor .contenedor_info .inicio1 figure img{
+		border: 1px solid #ccc;
+		width: 100%;
+	}
+  .contenedor .contenedor_info .link_interes{
+    display: inline-block;
+    margin: 25px 0;
+    width: 100%;
+    vertical-align: top;
+  }
+  .contenedor .contenedor_info .link_interes p{
+    color: #666;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 0 20px 0 0;
+    margin: 0;
+    vertical-align: top;
+  }
+  .contenedor .contenedor_info .link_interes a{
+    color: #ccc;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    padding: 0 15px 0 0;
+    margin: 0;
+    text-decoration: none;
+    vertical-align: top;
+  }
+	.contenedor .contenedor_info2{
+		display: inline-block;
+		margin: 0 35px 0 0;
+		width: 350px;
+		vertical-align: top;
+	}
+	.nav {
+		width: 1100px;
+	}	
+	
+	.nav #menu ul {
+	  font-size: 14px;
+	  list-style: none;
+	}
+	.nav #menu ul li{
+	    margin: -20px 0 0 0;
+	}  
+	.nav #menu ul li a {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 16px;
+	  color: white;
+	  font-weight: 300;
+	  -webkit-transition: all 0.2s linear;
+	  -moz-transition: all 0.2s linear;
+	  -o-transition: all 0.2s linear;
+	  transition: all 0.2s linear;
+	  margin: 0 15px;
+	}
+	.nav #menu ul li a:hover {
+	  color: #00ffb4;
+	}
+  .nav #menu ul li .activo {
+    color: #00ffb4;
+  }
+
+/* carrusel */
+  .clearout {
+    display: block;
+    height:20px;
+    clear:both;
+  }
+  #flexiselDemo3 {
+    display: none;
+  }
+  .nbs-flexisel-container {
+    display: block;
+    margin-top: 25px;
+    position:relative;
+    width: 710px;
+  }
+  .nbs-flexisel-ul {
+    display: block;
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+  }
+  .nbs-flexisel-inner {
+    display: block;
+    overflow:hidden;
+    float:left;
+    width:710px;
+    background-color:#f4f4f4;
+  }
+  .nbs-flexisel-item {
+    display: block;
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+  }
+  .nbs-flexisel-item img {
+    display: block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 101px;
+    height: 101px;
+  }
+  /*** Navigation ***/
+  .nbs-flexisel-nav-left,
+  .nbs-flexisel-nav-right {
+    display: block;
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+  }
+  .nbs-flexisel-nav-left {
+    left: 10px;
+    background: url(../imagenes/button-previous.png) no-repeat;
+  }
+  .nbs-flexisel-nav-right {
+    right: 5px;
+    background: url(../imagenes/button-next.png) no-repeat;
+  }
+/* carrusel */
+
+/*  css slide */
+    #w {
+      display: block;
+      height: 400px;
+      max-width: 1100px;
+      min-width: 280px;
+      margin: 0 auto;
+    }
+
+    #w header {
+      display: block;
+    }
+    .slider {
+      position: relative;
+      height: 400px;
+      width: 100%;
+      overflow: hidden;
+      top: -36px;
+    }
+    .slides {
+    	height: 400px;
+      overflow: hidden;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform-style: preserve-3d;
+      -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+      -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+      -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+      -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+      transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    } 
+    .slide {
+      height: 100%;
+      float: right;
+      clear: none;
+    }
+    .slide figure {
+      display: block;
+      float: right;
+      position: relative;
+    }
+    .slide figure figcaption {
+    	position: absolute;
+    	left: 69%;
+    	top: 10%;
+    	width: 29%;
+    }
+    .slide figure figcaption h1 {
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      padding-bottom: 10px;
+      text-align: center;
+      text-shadow: 1px 1px 2px #333;
+    }
+    .slide figure figcaption h2 {
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      padding-bottom: 15px;
+      text-align: center;
+      text-shadow: 1px 1px 2px #333;
+    }
+    .slide figure figcaption p {
+      color: #fff;
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+    }
+    .slide figure figcaption a {
+    	background: #fff;
+    	border-radius: 5px;
+    	box-shadow: 1px 1px 1px #333; 
+      color: #2bffb9;
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin: auto;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      width: 150px;
+    }
+    .slide figure img {
+      width: 100%;
+    }
+    .slider-nav {
+      display: none;
+    }
+    /*  css slide */
+}
